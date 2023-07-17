@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Crimson+Text&family=EB+Garamond&family=Ysabeau+Office&display=swap');
+
+
+*{
+font-family: 'Bitter', serif;
+/* font-family: 'Crimson Text', serif; */
+/* font-family: 'EB Garamond', serif; */
+
+}
+
+
 img{
-    max-height: 17.5em;
+    max-height: 25.5em;
     margin: 1em;
 }
 
@@ -7,7 +18,7 @@ img{
 .flex{
     display: flex;
     flex-wrap: wrap;
-    max-width: 56%;
+    max-width: 80%;
     align-items: center;
 }
 
@@ -52,8 +63,13 @@ img{
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
         
+
+    img{
+        max-height: 13em;
+        margin: 1em;
+    }
 
 
 
@@ -61,8 +77,6 @@ img{
 
 .item{
     pointer-events: none;
-
-
 }
 
 
