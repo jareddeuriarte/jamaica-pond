@@ -9,6 +9,11 @@ font-family: 'Bitter', serif;
 }
 
 
+.title{
+    margin-bottom: 1.5em;
+}
+
+
 img{
     max-height: 25.5em;
     margin: 1em;
@@ -64,12 +69,21 @@ img{
 
 
 @media only screen and (max-width: 700px) {
+
+
+
+    .portrait{
+        max-width: 13em;
+
+
+    }
         
 
     img{
         max-height: 13em;
         margin: 1em;
     }
+
 
 
 
