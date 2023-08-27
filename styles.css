@@ -75,6 +75,13 @@ img{
 
 @media only screen and (max-width: 700px) {
 
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 
     .portrait{
@@ -106,6 +113,8 @@ img{
 
   @media only screen and (max-width: 1300px) {
 
+ 
+
     #lightbox img {
         /* margin: 0;
         padding: 2px;
@@ -128,3 +137,35 @@ img{
 
   
   
+
+
+
+  @media only screen and (max-width: 900px) {
+
+    img {
+        max-height: 11.5em;
+        margin: 0.5em;
+    }
+
+    #lightbox img {
+        /* margin: 0;
+        padding: 2px;
+        border: 3px solid grey; */
+        max-height: 22em;
+    
+        border: 2px solid #000;
+        object-fit: cover;
+    
+    }
+
+
+    
+
+
+
+
+
+
+
+
+  }
