@@ -103,5 +103,28 @@ img{
 
   }
 
+
+  @media only screen and (max-width: 1300px) {
+
+    #lightbox img {
+        /* margin: 0;
+        padding: 2px;
+        border: 3px solid grey; */
+        max-height: 35em;
+    
+        border: 2px solid #000;
+        object-fit: cover;
+    
+    }
+
+
+
+
+
+
+
+
+  }
+
   
   
